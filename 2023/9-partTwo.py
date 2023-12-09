@@ -1,5 +1,4 @@
 import numpy as np
-from functools import reduce
 
 def allZero(l):
 	yes = True
