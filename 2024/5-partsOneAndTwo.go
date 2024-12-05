@@ -131,3 +131,5 @@ func reorderVals(vals []string, rules map[string][]string) []string {
 		return reorderVals(temp, rules)
 	}
 }
+
+// apparently something called topological sort exists which may have been useful?
