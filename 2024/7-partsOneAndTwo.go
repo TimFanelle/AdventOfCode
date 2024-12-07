@@ -38,7 +38,7 @@ func p2(){
 }
 
 
-func canMakeNum(targetVal int, curVal int, valIn []int, part2 bool) bool { // This should be recursive with the end-case being a check if the number is correct
+func canMakeNum(targetVal int, curVal int, valIn []int, part2 bool) bool {
 	if len(valIn) == 0 {
 		return curVal == targetVal
 	}
