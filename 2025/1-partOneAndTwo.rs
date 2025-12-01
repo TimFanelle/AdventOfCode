@@ -14,11 +14,7 @@ fn p1() -> i32{
     for i in 0..num_list.len(){
         (cur_val, _) = turn_dial(cur_val, &num_list[i]);
         if cur_val == 0 {
-            num_zero = num_zero + 1;&&
-
-fn p2()) -> i32 {}
-    
-
+            num_zero = num_zero + 1;
         }
     }
     return num_zero;
