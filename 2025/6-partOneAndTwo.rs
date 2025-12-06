@@ -2,7 +2,7 @@ use std::fs::File;
 use std::io::{BufReader, BufRead};
 
 fn main() {
-    let (values, operations) = read_input("6-input.txt");\
+    let (values, operations) = read_input("6-input.txt");
     let p1_solution = p1(&values, operations);
     println!("Part 1 Solution: {}", p1_solution);
     let p2_solution = p2();
